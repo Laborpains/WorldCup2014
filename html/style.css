@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+    font-size: 16px;
+}
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+li {
+    float: left;
+    list-style: none;
+}
+
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.all {
+    position: fixed;
+    background-position: center center;
+    z-index: -100;
+}
+
+.main_area {
+    width: 100%;
+}
+
+.champagne {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+
+.champagne img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-right:2px solid #fff;
+    border-bottom:2px solid #fff;
+}
+
+
+.cover {
+    width: 100%;
+    height: 100%;
+    background: rgba(10,48,143,0.7);
+    position: fixed;
+    z-index: 100;
+}
+
+
+.master_slide {
+    overflow:auto;
+    height:1200px;
+    width:600px;
+    position:absolute;
+    z-index: 1000;
+    top:50%;
+    left:50%;
+    margin-top:-300px;
+    margin-left:-300px;
+}
+
+
+.leftNav,
+.rightNav {
+	background: url(bg.png);
+	outline: none;
+}
+
+.leftNav:before,
+.rightNav:before {
+	content:"";
+	width:100%;
+	height:100%;
+	display: block;
+
+}
+
+.leftNav:hover {
+	background: url(leftNav.png) right center no-repeat  /*rgba(204,204,204,0.4);*/
+}
+
+
+.rightNav:hover {
+	background: url(rightNav.png) left center no-repeat  /*rgba(204,204,204,0.4);*/
+}
+
+.leftNav:hover:before,
+.rightNav:hover:before {
+	background: url(bg2.png)
+}
