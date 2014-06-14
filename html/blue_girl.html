@@ -1,528 +1,168 @@
 <!doctype html>
-<html lang="en">
-<link rel="stylesheet" href="style.css">
-<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+<html lang="ja" prefix="og: http://ogp.me/ns#">
 <head>
-	<meta charset="UTF-8">
-	<title>FOOT</title>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-</head>
+<!-- mobileとPCの分岐をここで指定 -->
 
+<script type="text/javascript">
+
+(function(){
+	var ua = navigator.userAgent.toUpperCase();
+	if(ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1)){
+		location.href = '/sp/';
+	}
+}());
+
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta charset="UTF-8">
+<meta property="og:title" content="QUESTION" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="“日本代表を応援したい”全ての人へ W杯初戦は、6月15日10時（日本時間）よりキックオフ！">
+<meta property="og:url" content="http://cheer-up-japan.com" />
+<meta property="og:image" content="http://cheer-up-japan.com/img/ogp.jpg" />
+<meta property="og:site_name" content="QUESTION">
+<meta property="og:email" content="info@cheer-up-japan.com">
+<title>QUESTION</title>
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="loading.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- js -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript" src="http://cheer-up-japan.com/js/main.js"></script>
+<script src="http://cheer-up-japan.com/js/jquery.socialbutton-1.9.1.min.js" type="text/javascript"></script>
+        
+<script type="text/javascript">
+$(window).load(function(){
+    $(".loadingWrap").fadeOut();
+});
+</script>
+<script type="text/javascript" src="http://cheer-up-japan.com/js/jquery.jstockticker-1.1.js"></script>
+
+   
+  <style type="text/css">
+.container {
+	text-align: left;
+}
+.container .wrap {
+	width: 996px;
+	position: relative;	
+	padding: 0px;
+	overflow: hidden;
+	border-radius:3px;
+	border:2px solid rgba(255,255,255,0.5);
+}
+#ticker {
+    position: relative;
+}
+
+#ticker img {
+	vertical-align:bottom;
+	margin:0px;
+	width:300px;
+	height:300px;
+}
+
+#ticker span {
+	padding-right: 20px;
+}
+
+.slide_area {
+    position:absolute;
+	z-index:1000;
+	top:170px;
+}
+
+</style>
+
+
+<script>
+    $(function() {
+        $("#ticker").jStockTicker({interval: 20});
+    });
+</script>
+</head>
 <body>
 
-<img width="100%" src="<TMPL_VAR NAME='IMAGE_PATH'>">
+  
+  
 
 
-<div class="master_slide">
-	<div class="slide">
-		<ul class="stage">
-			<li><img src="http://instagram.com/p/d8ppDkvJp6/media/?size=l" alt="" width="600" height="600" /></li>
-			<li><img src="http://instagram.com/p/eMHzo9mLTj/media/?size=l" alt="" width="600" height="600" /></li>
-			<li><img src="http://instagram.com/p/o26Wp5OiXW/media/?size=l" alt="" width="600" height="600" /></li>
-			<li><img src="http://instagram.com/p/ogaLzzrdL_/media/?size=l" alt="" width="600" height="600" /></li>
-			<li><img src="http://instagram.com/p/ogKlgCrX9X/media/?size=l" alt="" width="600" height="600" /></li>
-			
-			<li><img src="http://instagram.com/p/oqRkehGKTq/media/?size=l" alt="" width="600" height="600" /></li>
-			<li><img src="http://instagram.com/p/osjBPendVq/media/?size=l" alt="" width="600" height="600" /></li>
-			<li><img src="http://instagram.com/p/otHGucqXhU/media/?size=l" alt="" width="600" height="600" /></li>
-			<li><img src="http://instagram.com/p/otRnu9Tdn9/media/?size=l" alt="" width="600" height="600" /></li>
-			<li><img src="http://instagram.com/p/ovuCNRxwdu/media/?size=l" alt="" width="600" height="600" /></li>
-		</ul>
-	</div>
+<div class="all_container">
+
+<div class="main_content">
+  <h1><img src="./img/hero.png"></h1>
+  
+  
+  <div class="slide_area">
+  <div class="container">
+  <div class="wrap">
+  <div id="ticker">
+<img src="http://instagram.com/p/of_wDuTXao/media/?size=m">
+
+<img src="http://instagram.com/p/og6eRmkfhv/media/?size=m">
+
+<img src="http://instagram.com/p/oghvg2hJvP/media/?size=m">
+
+<img src="http://instagram.com/p/oi1QOqi0-H/media/?size=m">
+
+<img src="http://instagram.com/p/oeEXp1mabQ/media/?size=m">
+
+
+
+<!--/ #ticker--></div>
 </div>
-	
-<div class="cover"></div>
-<div class="all">
+</div>
+</div>
 
-<ul class="champagne">
-<li><img src="http://instagram.com/p/d8ppDkvJp6/media/?size=m"></li>
-<li><img src="http://instagram.com/p/da6NTqR1RB/media/?size=m"></li>
-<li><img src="http://instagram.com/p/eFbkWuLL9C/media/?size=m"></li>
-<li><img src="http://instagram.com/p/eMHzo9mLTj/media/?size=m"></li>
-<li><img src="http://instagram.com/p/kJ3wj-py_a/media/?size=m"></li>
-<li><img src="http://instagram.com/p/lJUJ1ADuXV/media/?size=m"></li>
-<li><img src="http://instagram.com/p/lkdmXhmvVd/media/?size=m"></li>
-<li><img src="http://instagram.com/p/lqoevyJy6M/media/?size=m"></li>
-<li><img src="http://instagram.com/p/mqHhf4mHKx/media/?size=m"></li>
-<li><img src="http://instagram.com/p/nTCBydvq66/media/?size=m"></li>
-<li><img src="http://instagram.com/p/nTR7Y_Pq4q/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o03F74CzYQ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o05eNXu8QR/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o0RUgFAfqx/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o1_5QVgwon/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o1DZp9HB6Z/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o1m_pjHoEp/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o26Wp5OiXW/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o3OngvQBDU/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o48URRFoW6/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o4xPfco7_B/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o52cBYOHBq/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o5Dak3xGZY/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o5kkvtsmC4/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o63v_xNZKC/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o64lQsNZLc/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o6P7QsQyAv/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o7_u-_FSGR/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o73u5ElXzi/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o77WQcqrGB/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o7aKeeAwrQ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o7MhWaOzbL/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o7YX50syst/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o8UC6LRLwR/media/?size=m"></li>
-<li><img src="http://instagram.com/p/od8SOVJy-d/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of_wDuTXao/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of4chvFfEn/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofvUoHkm2W/media/?size=m"></li>
-<li><img src="http://instagram.com/p/og6eRmkfhv/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oga-iZxWUU/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogaLzzrdL_/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogb0XiRWVg/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogbBIVNhQy/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogbJylxWUe/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogBSB2pqO-/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogcjdLxWWd/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogcOLAt5dj/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogd3K_kvtJ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogDEpqxcdD/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogE9sawag7/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogEATnm6EA/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogFdmPSUc4/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogfZhRF0sO/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oggnoOoOO_/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogH80MsEd1/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogh819hJvp/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogHns2Mysd/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oghvg2hJvP/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogHvZzuOLQ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogi5nAQacQ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogIb0tyTpX/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogiqeWmh-x/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogIrHmuRDT/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogJHZhxeqb/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogJT6kITNX/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogJVxOu2JI/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogK7wURXQw/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogKBNXneoJ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogKePOTfHb/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogKGySneoT/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogKlgCrX9X/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogKnmQnepX/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogKPeOIXBL/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogkZAnCKN0/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogljYMg_sG/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogLnTaxgHX/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogM6rpAYuA/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogMbGkHer8/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogMJl8Q-UV/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogMjMknesN/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogML6AHerf/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogMmZsk8Ed/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogNrZ5lg4e/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogNso6IKSq/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogNSqytm5z/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogNZCss1Q9/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogO_IEozrx/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogOhMNRR12/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogOIXyj11l/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogOv-Hl7iX/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogP1pTpVTe/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogP3K-Hegv/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogQ5_0m5NR/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogQHILHehC/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogQihFv-ID/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogQP2dnehN/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogRKbcEvqk/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogRzsmj_I1/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogSjD6Ek13/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogSPFpgI-S/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogTSBmN0s3/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogU8vWDaLN/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogUYCdjnXf/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogV-f8Q0TT/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogvfECR21A/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogVQXaRToW/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogVVMQiQre/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogWrowOCl_/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogWzosnx4O/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogX3OLlQWF/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogXLNKHx41/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogXSDEP_hv/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogXSP6RZTQ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogXVJlObd-/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogYwU_Cc2O/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogYzDiCSjL/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogZ4EJqb4m/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogZbJ-gIB7/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogZHeFLLH8/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogZnHFhhV7/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oh0fkcIDNV/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oh1U5YSUSq/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oh6fv7MbYi/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohhl_GEIOA/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohiY8ERLZt/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohlVIFD-4S/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohNZhaIzqy/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohr3_VuvUa/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohre0kF-wB/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohU_BFJzl6/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohuFCDOvWW/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohVsjoMPPf/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohWdYpHev4/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohx6CzQx0r/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oi1QOqi0-H/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oiBxo5S94M/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oiFFJmO786/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oigMMbPJev/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oiIoyZjSGw/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oiJ7UGLiy3/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oiL3dVlfDZ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oioUTQyQVe/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oiQxEOx15K/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oitCCio6wX/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oivALiK17w/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oiwLlcRtwG/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oiXI5gJdB1/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oiz52Xu-Nc/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oiZM-0OSTu/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oj0dQwhNnJ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ojMa2ljXhO/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ojujPsN15C/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ok5Et7N_tW/media/?size=m"></li>
-<li><img src="http://instagram.com/p/okb_7jvM9r/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oklyJijxCs/media/?size=m"></li>
-<li><img src="http://instagram.com/p/okRTzrQPnB/media/?size=m"></li>
-<li><img src="http://instagram.com/p/okWHuxNjGe/media/?size=m"></li>
-<li><img src="http://instagram.com/p/olAFW2QpS8/media/?size=m"></li>
-<li><img src="http://instagram.com/p/olc5fyx_Wq/media/?size=m"></li>
-<li><img src="http://instagram.com/p/olStx1Ieuv/media/?size=m"></li>
-<li><img src="http://instagram.com/p/olSVDRIeuL/media/?size=m"></li>
-<li><img src="http://instagram.com/p/omVZj5GtUf/media/?size=m"></li>
-<li><img src="http://instagram.com/p/on7LYMnTV4/media/?size=m"></li>
-<li><img src="http://instagram.com/p/onfzXPPSjr/media/?size=m"></li>
-<li><img src="http://instagram.com/p/onKkKiIrhO/media/?size=m"></li>
-<li><img src="http://instagram.com/p/opHbLdMaxV/media/?size=m"></li>
-<li><img src="http://instagram.com/p/opqK6sJfIP/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oqcYI-w5_4/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oqRkehGKTq/media/?size=m"></li>
-<li><img src="http://instagram.com/p/os-DOro72O/media/?size=m"></li>
-<li><img src="http://instagram.com/p/osblxTgGmo/media/?size=m"></li>
-<li><img src="http://instagram.com/p/osjBPendVq/media/?size=m"></li>
-<li><img src="http://instagram.com/p/osL0pMphyH/media/?size=m"></li>
-<li><img src="http://instagram.com/p/osWJESxZXo/media/?size=m"></li>
-<li><img src="http://instagram.com/p/otHGucqXhU/media/?size=m"></li>
-<li><img src="http://instagram.com/p/othU-jncYM/media/?size=m"></li>
-<li><img src="http://instagram.com/p/otR1YEkXGl/media/?size=m"></li>
-<li><img src="http://instagram.com/p/otRnu9Tdn9/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ovp0dlFVp6/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ovuCNRxwdu/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ovYuWfkNAu/media/?size=m"></li>
-<li><img src="http://instagram.com/p/owjH_RhiFb/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ox1ctqgF6G/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ox9cn-ANrT/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oxm6o1g-Yc/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oxzoFOtPd3/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oyEBY5HoBH/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oyOhWnwrOD/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oywlPBIRTC/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oz7An2JTxO/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ozaoOoGQaC/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ozlCf_jtlX/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ozzgVZAwpe/media/?size=m"></li>
-<li><img src="http://instagram.com/p/od7kpwO4Dj/media/?size=m"></li>
-<li><img src="http://instagram.com/p/odiHPwBnzA/media/?size=m"></li>
-<li><img src="http://instagram.com/p/odN8PkS9zK/media/?size=m"></li>
-<li><img src="http://instagram.com/p/odOtAuy9zs/media/?size=m"></li>
-<li><img src="http://instagram.com/p/odoTrNJ2_U/media/?size=m"></li>
-<li><img src="http://instagram.com/p/odrmPsOp2_/media/?size=m"></li>
-<li><img src="http://instagram.com/p/odytzhPO4_/media/?size=m"></li>
-<li><img src="http://instagram.com/p/odzEtiPO5m/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oe3CN7Lmyn/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oe5_KBLm3V/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oe9Dl1DBi5/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oeEXp1mabQ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oepsqrneuF/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oetafSJ4lQ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of-TGmMNzz/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of0h4xBH-P/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of0OLoTXe-/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of0Wazg5Xr/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of264Pi9ng/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of27JRi8Yc/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of3QwAhOVG/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of5vniK4sA/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of5zeolUd6/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of6vqeoc9J/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of7bVir36g/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of7HNPF9gi/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of7sy6qrjH/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of7YUFNb22/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of7Zltq-8B/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of8bEBwO3s/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of9DabH7-P/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofaq-JITBz/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofcLkIyUVm/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofczy0IW3_/media/?size=m"></li>
-<li><img src="http://instagram.com/p/offhFKkXBR/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofj3cBTXTY/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofjyLHoTJQ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oflbm0nX_O/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oflgfwl1KQ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oflusAiKCa/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofMAN0g8Ji/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofMqMRF_bV/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofmqQ1s3Kh/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofn7RRQ0FU/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofNwWrtVGx/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofP233gmKw/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofpIh9qHrd/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofrEiYv7BM/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofrHzUADWj/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofrM2MoEMB/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofRMDWQlcB/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofrYc5QguT/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofS6BYR7yY/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofsc6KNrll/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofsMCDiERa/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofssBSwlQv/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofuEBvsPK_/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofuf0iwVpb/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofuOMHoSHV/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofuz_0v9IQ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofUz5BnM96/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofvhBHGrIt/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofvJ5GhjS5/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofvTeODcEJ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofwuh5Oza7/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofxit_rbp4/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofxrAsrLGa/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofYGJcl_UJ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofyYO2PNiB/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofzCMCMlYx/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofzF8Qysow/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofzPZ5Ec72/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofzYiEhZvd/media/?size=m"></li>
-<li><img src="http://instagram.com/p/d6czH7Qegk/media/?size=m"></li>
-<li><img src="http://instagram.com/p/jJuarTN4u6/media/?size=m"></li>
-<li><img src="http://instagram.com/p/l7B6SCCv_C/media/?size=m"></li>
-<li><img src="http://instagram.com/p/lcfph7ANJy/media/?size=m"></li>
-<li><img src="http://instagram.com/p/lljqT-Opht/media/?size=m"></li>
-<li><img src="http://instagram.com/p/lwbRmqmdQf/media/?size=m"></li>
-<li><img src="http://instagram.com/p/mIvwfal58M/media/?size=m"></li>
-<li><img src="http://instagram.com/p/mzfF_RnYpu/media/?size=m"></li>
-<li><img src="http://instagram.com/p/n-HoZbmnD0/media/?size=m"></li>
-<li><img src="http://instagram.com/p/n-InZEMc_3/media/?size=m"></li>
-<li><img src="http://instagram.com/p/n-koi4Du2C/media/?size=m"></li>
-<li><img src="http://instagram.com/p/n4i3W4yPEY/media/?size=m"></li>
-<li><img src="http://instagram.com/p/n5ihSKnoo9/media/?size=m"></li>
-<li><img src="http://instagram.com/p/n5P3vwSmhZ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/n7wB1rlxPv/media/?size=m"></li>
-<li><img src="http://instagram.com/p/nk4_8IBthu/media/?size=m"></li>
-<li><img src="http://instagram.com/p/nLQFtHi2Hl/media/?size=m"></li>
-<li><img src="http://instagram.com/p/nR0Sw8IwBn/media/?size=m"></li>
-<li><img src="http://instagram.com/p/nTR7Y_Pq4q/media/?size=m"></li>
-<li><img src="http://instagram.com/p/nXqJqAQ4Tm/media/?size=m"></li>
-<li><img src="http://instagram.com/p/nYWj7rlSfq/media/?size=m"></li>
-<li><img src="http://instagram.com/p/nz4RgvDy_h/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o0ozKEK-Fo/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o0pNmzK-GH/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o1m_pjHoEp/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o5Dak3xGZY/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o5GP0KBKrG/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o6P7QsQyAv/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o73u5ElXzi/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o8cEd5rLXz/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o8fGk9yoKu/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o8hYYMzJ94/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oa-8M1FzyQ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oa4pteyPJh/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oadW9it0Se/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oaNJYQmUXa/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oauunpte4b/media/?size=m"></li>
-<li><img src="http://instagram.com/p/obaMSlkVoc/media/?size=m"></li>
-<li><img src="http://instagram.com/p/obAqkqFz1n/media/?size=m"></li>
-<li><img src="http://instagram.com/p/obAT3NNewZ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/obAT3NNewZ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/obAtiENexC/media/?size=m"></li>
-<li><img src="http://instagram.com/p/obG3txJjWS/media/?size=m"></li>
-<li><img src="http://instagram.com/p/obIbGRxc4X/media/?size=m"></li>
-<li><img src="http://instagram.com/p/obMk6tLFSB/media/?size=m"></li>
-<li><img src="http://instagram.com/p/obNTrgSVto/media/?size=m"></li>
-<li><img src="http://instagram.com/p/obOdCZldbI/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ocdk2MmV7e/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oCmZMUBIzD/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ocv6l0wQT4/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ocznpZyUWr/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oD04bVImgh/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oDK50ehLdK/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oDKsYOBLc-/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oDMDJPJjT5/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oDRqZCwIXC/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oDYC8fNews/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oEAMh6yRq4/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofrTiBMAve/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofwcD1mSe-/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oh7vKwmKIw/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohre0kF-wB/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oiM8dtwk-9/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oIxh4UDx3B/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ok6c2iv9Ox/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oKpi3sJPsv/media/?size=m"></li>
-<li><img src="http://instagram.com/p/olAFW2QpS8/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oldU7FAI5J/media/?size=m"></li>
-<li><img src="http://instagram.com/p/olZWXlK5BV/media/?size=m"></li>
-<li><img src="http://instagram.com/p/onaOFprHjl/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oOGFwSxR_h/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oP9ZVOGRlp/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oQjzXTAxM6/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oqnNbQL8WI/media/?size=m"></li>
-<li><img src="http://instagram.com/p/osblxTgGmo/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oSQkTwgwgo/media/?size=m"></li>
-<li><img src="http://instagram.com/p/otDZnDtrhJ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oTPeIThoRp/media/?size=m"></li>
-<li><img src="http://instagram.com/p/otZXNdiTQz/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oV-JrPr8Vn/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ovBG_iP9Cy/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ovoKk9K-Gj/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ovREecP9O-/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oWGxVjAwuE/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oxGcuaAETP/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oyEBY5HoBH/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oYW9wDilDj/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oYZ3OMhtN_/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oZeNEZK31A/media/?size=m"></li>
-<li><img src="http://instagram.com/p/lIBQ0BgJ_2/media/?size=m"></li>
-<li><img src="http://instagram.com/p/lJ6nRTgLjs/media/?size=m"></li>
-<li><img src="http://instagram.com/p/lL3RPqAmO4/media/?size=m"></li>
-<li><img src="http://instagram.com/p/lMAKbor1ch/media/?size=m"></li>
-<li><img src="http://instagram.com/p/lTxto-Ssti/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o1m_pjHoEp/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o2xpmexIEe/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o3gbhQufGF/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o3m64TAmLY/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o67gNbQMeI/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o7_u-_FSGR/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o748CUnhS0/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o7zIROEhLy/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o8SOyIot0C/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogb0XiRWVg/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oi_cQVp9Ai/media/?size=m"></li>
-<li><img src="http://instagram.com/p/olSxmpOu9Z/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ooC9KMHiWn/media/?size=m"></li>
-<li><img src="http://instagram.com/p/os_OrJG7iH/media/?size=m"></li>
-<li><img src="http://instagram.com/p/os1IijGr5m/media/?size=m"></li>
-<li><img src="http://instagram.com/p/osblxTgGmo/media/?size=m"></li>
-<li><img src="http://instagram.com/p/osWJESxZXo/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ouD64vx45X/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oulF-qR5yO/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ovhkgSl4GG/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oviJj7F4HI/media/?size=m"></li>
-<li><img src="http://instagram.com/p/owRkbkt9qd/media/?size=m"></li>
-<li><img src="http://instagram.com/p/owz6jrrzTF/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oxrXSuh5XQ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oyHsamPSXM/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oyS_jzFAxU/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ozuW54Jbxd/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ozZLF1N9n-/media/?size=m"></li>
-<li><img src="http://instagram.com/p/aI1eCrDebH/media/?size=m"></li>
-<li><img src="http://instagram.com/p/eEp7ZKMlaA/media/?size=m"></li>
-<li><img src="http://instagram.com/p/eFKqQMIFQW/media/?size=m"></li>
-<li><img src="http://instagram.com/p/jrHAMhRKVo/media/?size=m"></li>
-<li><img src="http://instagram.com/p/lKZwCpBaEO/media/?size=m"></li>
-<li><img src="http://instagram.com/p/lOWTXnk40d/media/?size=m"></li>
-<li><img src="http://instagram.com/p/nsa0tiSUh4/media/?size=m"></li>
-<li><img src="http://instagram.com/p/nTBUYymCLU/media/?size=m"></li>
-<li><img src="http://instagram.com/p/nvbBuHKzlT/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o-ACmMrnM8/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o-Emprxg1y/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o-NL3fmtuo/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o0pNmzK-GH/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o0s530K-K6/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o0zLGqGtWD/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o4ksdPPjf9/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o4YCwqrKIM/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o5Yj8PHKR-/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o68xOrRVmu/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o6Ko6mk8u5/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o79YZlSPUj/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o7FRgeIXu_/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o7GdEzxFVV/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o7jL7QIV3N/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o7L_CUw4Ri/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o7MhWaOzbL/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o8cEd5rLXz/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o8hjcZxZBy/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o8hSTchZg_/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o8hYYMzJ94/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o8Mq8RnIq_/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o8pk9UnqgM/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o8Z9Wwv2pK/media/?size=m"></li>
-<li><img src="http://instagram.com/p/o95_cryAcD/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of-NgpAD5H/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of68XrkVoX/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of6FpLSXHN/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of6ZxsFOyP/media/?size=m"></li>
-<li><img src="http://instagram.com/p/of891Fk9FU/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofK2bQwbGG/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofk9eEuLSj/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofkDrPQg7B/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oflChxyJab/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofmKazsspI/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofvdwjlfMq/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ofx88onZF3/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogABBfl_zp/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogBKWugpZY/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogBlg7s5tK/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogbwUxtBNu/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogchgAjUB9/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogcOKUPOeh/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogDiI3TACd/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogE1Mxm60b/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogEnzNGCY8/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogI1dbI07j/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogIb0tyTpX/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogIhokzW8H/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogIJtvjjpN/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogLZ89wnyg/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogNmhLLRGr/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogNZCss1Q9/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogPI_3JQ61/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogPVdVDWCS/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogQ3KEv7dq/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogQwyzQVuW/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogSvJarzWr/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogTuRes3OL/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ogUar-v4Hv/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohACOLhOaa/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohLEP6pOlq/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohnnMKy8HA/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohR1EYNNsS/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ohuFCDOvWW/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oi9s5UFK9Y/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oiL3dVlfDZ/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oiORElHU2m/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ojzvZaP7u0/media/?size=m"></li>
-<li><img src="http://instagram.com/p/olc5fyx_Wq/media/?size=m"></li>
-<li><img src="http://instagram.com/p/olecf-R_Y7/media/?size=m"></li>
-<li><img src="http://instagram.com/p/om5mNjuB0j/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oqGDOJIKji/media/?size=m"></li>
-<li><img src="http://instagram.com/p/osWJESxZXo/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ovbDiRvNFG/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oVpPX_rAAu/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ovuCNRxwdu/media/?size=m"></li>
-<li><img src="http://instagram.com/p/oxzoFOtPd3/media/?size=m"></li>
-<li><img src="http://instagram.com/p/ozyxusOB5E/media/?size=m"></li>
-</ul>
-</div><!-- all -->
-<script type="text/javascript" src="./jquery.fullwidthslider.1.0.js"></script>
-<script type="text/javascript">
-$(function(){
-	$(".slide").fullWidthSlider({
-		width:1200,
-		height:600,
-		nav:true
-	});
-})
-</script>
+
+  <div class="bbb">
+    <div class="share clearfix">
+    <div class="ll_tw">
+<a class="btn tw" href="http://twitter.com/share?text=4年に1度だし、みんなで応援するのも良いかも！ー“日本代表を応援したい”全ての人へ『QUESTION』 &url=http://cheer-up-japan.com"><span>Twitterのみんなにも聞いてみる</span></a>
+</div>
+<div class="ll_fb">
+<a class="btn fb" href="http://www.facebook.com/share.php?u=http://cheer-up-japan.com" onclick="window.open(this.href, 'window', 'width=550, height=450,personalbar=0,toolbar=0,scrollbars=1,resizable=1'); return false;"><span>Facebookのみんなにも聞いてみる</span></a>
+   </div>
+   
+    </div><!-- / #share -->
+    
+    <div class="select_shop">
+      <a href="/shop" class="btn shop">みんなで応援できるお店はこちら</a>
+    </div>
+  </div>
+         
+</div><!-- div.main_content -->
+
+</div><!-- all_container -->
+
+
+
+<div class='loadingWrap'>
+
+<div class="wrapperloading">
+  <div class="loading up"></div>
+  <div class="loading down"></div>
+</div>
+    
+</div>
+
+
+
+
+<div class="left_bottom">
+  <div id="socialbuttons" class="clearfix">
+    <div class="twitter"></div>
+    <div class="facebook"></div>
+  </div>
+</div>
+  
+
+
+<div class="bottom">
+  <small>画像は、すべてInstagramで公開設定になっている画像です<br>© 2014 cheer-up-japan.com We &hearts; SAMURAI BLUE.</small>
+</div>
+  
 </body>
 </html>
-
