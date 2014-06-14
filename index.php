@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta name="viewport" content="width=320, user-scalable=no" />
-<title></title>
+<title>SAMURAI BLUE GIRLS</title>
 
 <script type="text/javascript">
 
@@ -62,6 +62,14 @@ function stop() {
 <body onLoad="execute();">
 <div id="container"></div>
 </script>
-
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- SAMURAI BLUE GIRLS -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:320px;height:50px"
+     data-ad-client="ca-pub-9038017433503334"
+     data-ad-slot="1071551292"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 </body>
 </html>
