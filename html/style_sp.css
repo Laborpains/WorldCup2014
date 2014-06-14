@@ -1,0 +1,387 @@
+body {
+	margin: 0;
+	padding: 0;
+	font: 14px;
+	color:#464646;
+	text-align: center;
+    background-color: rgba(10,48,143,1.0);
+	background-size:200%;
+    width: 100%;
+	height:100%;
+	background-position:center center;
+	
+	background-image:url(./img/bgbg.jpg);
+
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fefefe;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.bottom {
+	width: 100%;
+	margin:20px 0px 20px 0px;
+}
+
+.top_schedule {
+top:0;
+  width: 100%;
+    position: fixed;
+    z-index: 2000;
+}
+
+.menu_btn_area {
+	width:100%;
+}
+
+
+
+
+.btn.menu_center {
+	/*
+	background:rgba(244,61,61,0.75);
+	width: 200px;
+	height: 64px;
+	border:2px solid rgba(244,61,61,1.0);
+	line-height: 3.2;
+	font-style: italic;
+	font-size: 20px;
+	font-weight:bold;
+	margin: 0 auto;
+	*/
+}
+
+
+.date {
+text-align:center;
+	width:100%;
+}
+
+
+
+.main_content {
+	overflow: auto;
+	width: 320px;
+	margin:0 auto;
+}
+
+.main_content h1 {
+	margin: 20px 0px 10px 0px;
+	width:320px;
+	height:59px;
+}
+
+.main_content h1 img {
+	width:320px;
+	height:59px;
+}
+
+
+.code li {
+    float: left;
+    list-style: none;
+}
+
+
+
+
+
+
+/* tw/fb button */
+
+
+
+
+
+
+/* fb button */
+
+
+
+
+
+
+
+
+
+
+
+/* small */
+
+.bottom small {
+	font-size:11px;
+	color:rgba(255,255,255,0.8);
+	text-shadow:0 0 1px 1px rgba(0,0,0,0.3);
+	font-style:italic;
+}
+
+
+/* ボタン */
+
+.bbb {
+	width:320px;
+}
+
+
+/* シェア */
+#share ul {
+	margin:0 auto;
+	width:320px;
+	padding:0;
+}
+
+#share ul li {
+	width:90%;
+	margin:10px auto 10px auto;
+	list-style:none;
+}
+
+#share li a {
+	position:relative;
+	display:block;
+	padding:1em 0;
+	color:#fff;
+	font-size:15px;
+	font-weight:bold;
+	border-radius:3px;
+	text-align:center;
+	line-height: 22px;
+	text-decoration: none;
+}
+
+#share li a:hover {
+	-webkit-transform: translate3d(0px, 5px, 1px);
+	-moz-transform: translate3d(0px, 5px, 1px);
+	transform: translate3d(0px, 5px, 1px);
+	box-shadow:none;
+}
+
+/* ツイッター */
+#share .twitter a {
+	background:#00acee;
+	box-shadow:0 5px 0 #0092ca;
+	transition:all .3s;
+	-webkit-transition:all .3s;
+}
+#share .twitter a:hover {
+	background:#0092ca;
+}
+
+/* Facebook */
+#share .facebook a {
+	background:#3b5998;
+	box-shadow:0 5px 0 #2c4373;
+	transition:all .3s;
+	-webkit-transition:all .3s;
+}
+#share .facebook a:hover {
+	background:#2c4373;
+}
+
+
+/* お店を見つける */
+
+
+.selectshop h3 {
+	margin:0px 0px 8px 0px;
+	color:#fff;
+}
+
+
+.selectshop {
+	margin:24px auto 0px auto;
+	width:320px;
+}
+
+.selectshop a {
+	background:rgba(244,61,61,1);
+	width:90%;
+	margin:0 auto;
+	box-shadow:0 5px 0 #D13333;
+	transition:all .3s;
+	-webkit-transition:all .3s;
+}
+.selectshop a:hover {
+	background:rgba(244,11,61,1);
+}
+
+.selectshop a {
+	position:relative;
+	display:block;
+	padding:1em 0;
+	color:#fff;
+	font-size:15px;
+	font-weight:bold;
+	border-radius:3px;
+	text-align:center;
+	line-height: 22px;
+	text-decoration: none;
+}
+
+.selectshop a:hover {
+	-webkit-transform: translate3d(0px, 5px, 1px);
+	-moz-transform: translate3d(0px, 5px, 1px);
+	transform: translate3d(0px, 5px, 1px);
+	box-shadow:none;
+}
+
+
+
+
+
+
+
+/* ここからshop */
+
+.wrapper {
+	width:96%;
+	background:rgba(255,255,255,0.9);
+	margin:10px auto;
+	border-radius:4px;
+	color:#464646;
+}
+/* Caution! Ensure accessibility in print and other media types... */
+@media projection, screen { /* Use class for showing/hiding tab content, so that visibility can be better controlled in different media types... */
+    .ui-tabs-hide {
+        display: none;
+    }
+}
+
+/* Hide useless elements in print layouts... */
+@media print {
+    .ui-tabs-nav {
+        display: none;
+    }
+}
+
+/* Skin */
+.ui-tabs-nav, .ui-tabs-panel {
+    font-family: "Trebuchet MS", Trebuchet, Verdana, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.ui-tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+.ui-tabs-nav:after { /* clearing without presentational markup, IE gets extra treatment */
+    display: block;
+    clear: both;
+    content: " ";
+}
+.ui-tabs-nav li {
+    float: left;
+    margin: 0 0 0 0px;
+    width:20%;
+}
+.ui-tabs-nav a, .ui-tabs-nav a span {
+    display: block;
+    background: url(tab.png) no-repeat;
+		padding:14px 0px 10px 0px;
+}
+.ui-tabs-nav a {
+    margin: 1px 0 0; /* position: relative makes opacity fail for disabled tab in IE */
+    padding-left: 0;
+    color: #27537a;
+	display:block;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap; /* required in IE 6 */    
+    outline: 0; /* prevent dotted border in Firefox */
+}
+
+.ui-tabs-nav a:hover {
+    background:rgba(0,0,0,0.2);
+}
+
+.ui-tabs-nav .ui-tabs-selected a {
+    position: relative;
+    top: 1px;
+    z-index: 2;
+    margin-top: 0;
+    color: #000;
+}
+.ui-tabs-nav a span {
+    width: 64px; /* IE 6 treats width as min-width */
+    min-width: 64px;
+    height: 18px; /* IE 6 treats height as min-height */
+    min-height: 18px;
+    padding-top: 6px;
+    padding-right: 0;
+}
+*>.ui-tabs-nav a span { /* hide from IE 6 */
+    width: auto;
+    height: auto;
+}
+.ui-tabs-nav .ui-tabs-selected a span {
+    padding-bottom: 1px;
+}
+.ui-tabs-nav .ui-tabs-selected a, .ui-tabs-nav a:hover, .ui-tabs-nav a:focus, .ui-tabs-nav a:active {
+    background-position: 100% -150px;
+}
+.ui-tabs-nav a, .ui-tabs-nav .ui-tabs-disabled a:hover, .ui-tabs-nav .ui-tabs-disabled a:focus, .ui-tabs-nav .ui-tabs-disabled a:active {
+    background-position: 100% -100px;
+}
+.ui-tabs-nav .ui-tabs-selected a span, .ui-tabs-nav a:hover span, .ui-tabs-nav a:focus span, .ui-tabs-nav a:active span {
+    background-position: 0 -50px;
+}
+.ui-tabs-nav a span, .ui-tabs-nav .ui-tabs-disabled a:hover span, .ui-tabs-nav .ui-tabs-disabled a:focus span, .ui-tabs-nav .ui-tabs-disabled a:active span {
+    background-position: 0 0;
+}
+.ui-tabs-nav .ui-tabs-selected a:link, .ui-tabs-nav .ui-tabs-selected a:visited, .ui-tabs-nav .ui-tabs-disabled a:link, .ui-tabs-nav .ui-tabs-disabled a:visited { /* @ Opera, use pseudo classes otherwise it confuses cursor... */
+    cursor: text;
+}
+.ui-tabs-nav a:hover, .ui-tabs-nav a:focus, .ui-tabs-nav a:active,
+.ui-tabs-nav .ui-tabs-deselectable a:hover, .ui-tabs-nav .ui-tabs-deselectable a:focus, .ui-tabs-nav .ui-tabs-deselectable a:active { /* @ Opera, we need to be explicit again here now... */
+    cursor: pointer;
+}
+.ui-tabs-disabled {
+    opacity: .4;
+    filter: alpha(opacity=40);
+}
+.ui-tabs-panel {
+    border-top: 1px solid #97a5b0;
+    padding: 1em 8px;
+    background: rgba(255,255,255,0.3); /* declare background color for container to avoid distorted fonts in IE while fading */
+}
+.ui-tabs-loading em {
+    padding: 0 0 0 20px;
+    background: url(loading.gif) no-repeat 0 50%;
+}
+
+/* Additional IE specific bug fixes... */
+* html .ui-tabs-nav { /* auto clear, @ IE 6 & IE 7 Quirks Mode */
+    display: inline-block;
+}
+*:first-child+html .ui-tabs-nav  { /* @ IE 7 Standards Mode - do not group selectors, otherwise IE 6 will ignore complete rule (because of the unknown + combinator)... */
+    display: inline-block;
+}
+
+
