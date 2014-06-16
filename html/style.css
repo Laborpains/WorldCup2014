@@ -268,7 +268,7 @@ top:0;
 
 .wrapper {
 	width:96%;
-	background:rgba(255,255,255,0.5);
+	background:rgba(255,255,255,0.8);
 	margin:10px auto;
 	border-radius:4px;
 	color:#464646;
@@ -289,13 +289,15 @@ top:0;
 
 /* Skin */
 .ui-tabs-nav, .ui-tabs-panel {
-    font-family: "Trebuchet MS", Trebuchet, Verdana, Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
+    color:#464646;
 }
 .ui-tabs-nav {
     list-style: none;
     margin: 0;
     padding:0;
+    background:rgba(255,255,255,0.6);
+    border-radius:3px 3px 0px 0px;
 }
 .ui-tabs-nav:after { /* clearing without presentational markup, IE gets extra treatment */
     display: block;
@@ -306,6 +308,7 @@ top:0;
     float: left;
     margin: 0 0 0 0px;
     width:20%;
+    font-size:18px;
 }
 .ui-tabs-nav a, .ui-tabs-nav a span {
     display: block;
