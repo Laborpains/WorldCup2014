@@ -3,16 +3,6 @@
 <head prefix="og: http://ogp.me/ns#">
 <!-- mobileとPCの分岐をここで指定 -->
 
-<script type="text/javascript">
-
-(function(){
-	var ua = navigator.userAgent.toUpperCase();
-	if(ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1)){
-		location.href = '/sp/';
-	}
-}());
-
-</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta charset="UTF-8">
 <meta property="og:title" content="QUESTION" />
@@ -29,6 +19,17 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <!-- js -->
+
+<script type="text/javascript">
+
+(function(){
+	var ua = navigator.userAgent.toUpperCase();
+	if(ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1)){
+		location.href = '/sp/';
+	}
+}());
+
+</script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script type="text/javascript" src="./js/main.js"></script>
 <script src="./js/jquery.socialbutton-1.9.1.min.js" type="text/javascript"></script>
@@ -118,6 +119,7 @@ $(window).load(function(){
 
 
   <div class="bbb">
+  
     <div class="share clearfix">
     <div class="ll_tw">
 <a class="btn tw" href="http://twitter.com/share?text=4年に1度だし、みんなで応援するのも良いかも！ー“日本代表を応援したい”全ての人へ『QUESTION』 &url=http://cheer-up-japan.com"><span>Twitterのみんなにも聞いてみる</span></a>
