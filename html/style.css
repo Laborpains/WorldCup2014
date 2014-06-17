@@ -43,7 +43,7 @@ a:active {
 
 .bottom {
 	position: fixed;
-	bottom:10px;
+	bottom:2px;
 	z-index: 1200;
 	width: 100%;
 }
